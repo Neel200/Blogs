@@ -5,7 +5,7 @@ import "./index.css";
 import AppContextProvider from "./Context/AppContext.jsx";
 import { BrowserRouter } from "react-router-dom";
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename="RouterApp">
+  <BrowserRouter basename="Blogs">
     <AppContextProvider> 
       <App />
     </AppContextProvider>
